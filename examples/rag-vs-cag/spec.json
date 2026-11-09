@@ -1,0 +1,103 @@
+{
+  "mode": "dark",
+  "style": "tech",
+  "palette": "navy-gold",
+  "lang": "en",
+  "background": {
+    "icons": [
+      "database",
+      "brain",
+      "search",
+      "hard-drive"
+    ]
+  },
+  "author": {
+    "name": "Mohamed Salah ARFA",
+    "linkedin": "linkedin.com/in/medsalaharfa1"
+  },
+  "title": [
+    {
+      "text": "RAG ",
+      "color": "s0"
+    },
+    {
+      "text": "VS ",
+      "color": "text"
+    },
+    {
+      "text": "CAG",
+      "color": "s1"
+    }
+  ],
+  "subtitle": "Fetch knowledge per question, or preload it once?",
+  "sections": [
+    {
+      "heading": "RAG (Retrieval-Augmented Generation)",
+      "steps": [
+        {
+          "label": "User Query",
+          "icon": "user"
+        },
+        {
+          "label": "Embed Query",
+          "icon": "binary"
+        },
+        [
+          {
+            "label": "Vector Search",
+            "icon": "database"
+          },
+          {
+            "label": "Keyword Search",
+            "icon": "search"
+          }
+        ],
+        {
+          "label": "Rerank Chunks",
+          "icon": "list-filter"
+        },
+        {
+          "label": "Build Prompt",
+          "icon": "file-text"
+        },
+        {
+          "label": "LLM Answer",
+          "icon": "brain"
+        },
+        {
+          "label": "Cite Sources",
+          "icon": "quote"
+        }
+      ]
+    },
+    {
+      "heading": "CAG (Cache-Augmented Generation)",
+      "steps": [
+        {
+          "label": "Load Knowledge",
+          "icon": "book-open"
+        },
+        {
+          "label": "Precompute KV Cache",
+          "icon": "cpu"
+        },
+        {
+          "label": "Store Cache",
+          "icon": "hard-drive"
+        },
+        {
+          "label": "User Query",
+          "icon": "user"
+        },
+        {
+          "label": "Reuse Cache",
+          "icon": "refresh-cw"
+        },
+        {
+          "label": "LLM Answer",
+          "icon": "brain"
+        }
+      ]
+    }
+  ]
+}
